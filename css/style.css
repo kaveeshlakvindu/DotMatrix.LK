@@ -1,0 +1,64 @@
+.fa-facebook-f {
+  color: #d21f47
+  ;
+}
+.fa-instagram {
+  color: #d21f47
+  ;
+}
+.fa-twitter {
+  color: #d21f47
+  ;
+}.fa-dribbble {
+  color: #d21f47
+  ;
+}.fa-github {
+  color: #d21f47
+  ;
+}
+
+/*Main CSS*/
+html{
+  scroll-behavior: smooth;
+  transition-duration: 0.5s;
+}
+a:hover{
+  text-decoration: none;
+  color:black;
+}
+
+
+/*Sections*/
+.section{
+  padding-top: 4.5rem;
+}
+/*Navigation*/
+nav{
+  background-color: rgba(255,255,255,0.9);
+}
+.nav-btn{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  margin-left: 2px;
+  border-radius: 5px;
+  transition: 0.25s;
+}
+.nav-btn:hover{
+  color: aliceblue;
+  background-color:rgba(200, 200, 200, 0.7);
+}
+/*Contact us*/
+.contact-image{
+  background-image: url(../images/11.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+}
+
+.social-icon{
+  color: white;
+}
+.social-icon:hover{
+  color: rgba(200, 200, 200, 0.7);
+  cursor: pointer;
+}
